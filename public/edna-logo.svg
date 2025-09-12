@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" role="img" aria-label="eDNA logo">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="160" height="40" rx="8" fill="url(#g)" opacity="0.08"/>
+  <g transform="translate(12,8)">
+    <path d="M8 0c6 6 6 18 0 24M0 0c6 6 6 18 0 24" fill="none" stroke="#4f46e5" stroke-width="2"/>
+    <path d="M0 6h8M0 12h8M0 18h8" stroke="#06b6d4" stroke-width="2"/>
+  </g>
+  <text x="56" y="26" font-family="Segoe UI, Inter, system-ui, -apple-system, Arial" font-size="20" font-weight="700" fill="#111827">eDNA</text>
+</svg>
+
+
