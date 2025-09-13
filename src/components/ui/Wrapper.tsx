@@ -5,7 +5,7 @@ import React from 'react'
 const Wrapper = ({children}: {children: React.ReactNode}) => {
   return (
     <>
-        <div className="fixed inset-0 -z-10 overflow-hidden bg-black">
+        <div className="fixed inset-0 -z-10 overflow-hidden bg-slate-900">
           <video
             className="min-w-full min-h-full w-auto h-auto object-cover"
             autoPlay
@@ -15,8 +15,7 @@ const Wrapper = ({children}: {children: React.ReactNode}) => {
             preload="auto"
             aria-hidden
           >
-            <source src="/ocean.webm" type="video/webm" />
-            <source src="/ocean.mp4" type="video/mp4" />
+            <source src="/oceanloop.mp4" type="video/mp4" />
           </video>
         </div>
         <header className="w-full static z-50 flex justify-center">
