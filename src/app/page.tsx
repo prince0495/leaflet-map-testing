@@ -44,7 +44,7 @@ export default function DNAExplorer() {
 
           {/* About Section */}
           <div>
-            <AboutSection />
+            {/* <AboutSection /> */}
           </div>
         </div>
       </div>

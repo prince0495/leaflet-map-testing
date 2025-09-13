@@ -41,6 +41,12 @@ const Wrapper = ({children}: {children: React.ReactNode}) => {
               </div>
               <div className="flex items-center gap-3">
                 <Link
+                  href="/research"
+                  className="px-4 py-2 rounded-lg border border-white/20 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 transition"
+                >
+                  AI Research
+                </Link>
+                <Link
                   href="/map"
                   className="px-4 py-2 rounded-lg border border-white/20 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 transition"
                 >
