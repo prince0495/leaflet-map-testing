@@ -1,7 +1,6 @@
 // app/your-page-name/page.tsx
 import Image from 'next/image';
 import Link from 'next/link';
-import { VscTerminalPowershell, VscBeaker, VscDatabase, VscSymbolStructure, VscChecklist } from 'react-icons/vsc';
 
 // Helper component for Tech Stack items for a cleaner look
 const TechPill = ({ name }: { name: string }) => (
@@ -65,7 +64,7 @@ const ResearchPage = () => {
               </div>
                <div className="p-4 border-l-4 border-pink-500">
                 <h3 className="text-xl font-semibold mb-1 text-pink-400">5. Biological Annotation</h3>
-                <p className="text-slate-400">Finally, we use BLAST annotation to assign a biological identity to each cluster, revealing the ecosystem's composition.</p>
+                <p className="text-slate-400">Finally, we use BLAST annotation to assign a biological identity to each cluster, revealing the ecosystem&apos;s composition.</p>
               </div>
             </div>
           </div>
@@ -83,7 +82,7 @@ const ResearchPage = () => {
               <div className="relative w-full h-64 mb-4">
                  <Image src="/hdbscan-scatter-plot.jpeg" alt="HDBSCAN Scatter Plot" layout="fill" objectFit="contain" className="rounded-lg" />
               </div>
-              <p className="text-slate-400 text-sm">This UMAP visualization shows the power of our autoencoder. Each color represents a distinct cluster, demonstrating the model's ability to separate different biological entities with high precision.</p>
+              <p className="text-slate-400 text-sm">This UMAP visualization shows the power of our autoencoder. Each color represents a distinct cluster, demonstrating the model&apos;s ability to separate different biological entities with high precision.</p>
             </div>
 
             <div className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2">
@@ -91,7 +90,7 @@ const ResearchPage = () => {
               <div className="relative w-full h-64 mb-4">
                  <Image src="/cluster-histogram.jpeg" alt="Cluster Abundance Histogram" layout="fill" objectFit="contain" className="rounded-lg" />
               </div>
-              <p className="text-slate-400 text-sm">Our analysis reveals a typical ecological pattern: a large number of rare species and a few highly dominant ones. This provides a macro-level view of the ecosystem's structure.</p>
+              <p className="text-slate-400 text-sm">Our analysis reveals a typical ecological pattern: a large number of rare species and a few highly dominant ones. This provides a macro-level view of the ecosystem&apos;s structure.</p>
             </div>
 
             <div className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2">

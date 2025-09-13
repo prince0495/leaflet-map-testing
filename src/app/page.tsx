@@ -2,7 +2,6 @@
 
 import SearchBar from '@/components/ui/SearchBar';
 import UploadSection from '@/components/ui/UploadSection';
-import AboutSection from '@/components/ui/AboutSection';
 import Wrapper from '@/components/ui/Wrapper';
 
 export default function DNAExplorer() {

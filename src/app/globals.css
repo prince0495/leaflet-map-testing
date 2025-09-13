@@ -96,7 +96,8 @@ html {
 }
 
 /* Optional: a subtle background grid for the hero */
-/* .bg-grid-slate-800\/40 {
-    background-image: linear-gradient(theme(colors.slate.800 / 40%) 1px, transparent 1px), linear-gradient(to right, theme(colors.slate.800 / 40%) 1px, transparent 1px);
-    background-size: 2rem 2rem ;
-} */
+.hero-grid-background {
+    /* Tailwind's slate-800 (#1e293b) with 40% opacity */
+    background-image: linear-gradient(rgba(30, 41, 59, 0.4) 1px, transparent 1px), linear-gradient(to right, rgba(30, 41, 59, 0.4) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+}
